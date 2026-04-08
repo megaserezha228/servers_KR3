@@ -18,7 +18,7 @@ load_dotenv()
 MODE = os.getenv("MODE", "DEV")
 DOCS_USER = os.getenv("DOCS_USER", "admin")
 DOCS_PASSWORD = os.getenv("DOCS_PASSWORD", "docs123")
-SECRET_KEY = "mysecretkey2024"
+SECRET_KEY = "secretkey"
 ALGORITHM = "HS256"
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 basic_security = HTTPBasic()
