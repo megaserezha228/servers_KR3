@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+python-dotenv
+passlib[bcrypt]
+pyjwt
+slowapi
